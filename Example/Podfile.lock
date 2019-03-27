@@ -1,0 +1,16 @@
+PODS:
+  - flog (0.1.0)
+
+DEPENDENCIES:
+  - flog (from `../`)
+
+EXTERNAL SOURCES:
+  flog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  flog: c28282ebc6fc44a6acd7970a0eb8841e00067743
+
+PODFILE CHECKSUM: f97c4cda01fed12de3e1d992e3eebbeb0c702992
+
+COCOAPODS: 1.6.1
