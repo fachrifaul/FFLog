@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class Flog {
+public class FFLog {
     public static func show(_ text: String) {
         print("#flog \(text)")
     }

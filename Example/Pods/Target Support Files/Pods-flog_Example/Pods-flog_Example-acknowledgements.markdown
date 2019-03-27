@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## flog
+## FFLog
 
 Copyright (c) 2019 fachrifaul <fachripaul@gmail.com>
 

@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'flog'
+  s.name             = 'FFLog'
   s.version          = '0.1.0'
   s.summary          = 'Library Keren :))'
 
@@ -19,17 +19,17 @@ Pod::Spec.new do |s|
 
   s.description      = 'Library nya Fachri'
 
-  s.homepage         = 'https://github.com/fachrifaul/flog'
+  s.homepage         = 'https://github.com/fachrifaul/FFLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fachrifaul' => 'fachripaul@gmail.com' }
-  s.source           = { :git => 'https://github.com/fachrifaul/flog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fachrifaul/FFLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'flog/Classes/**/*'
-  s.swift_version = '4.2'
+  s.swift_version = "4.2"
   
   # s.resource_bundles = {
   #   'flog' => ['flog/Assets/*.png']

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import flog
+import FFLog
 
 class ViewController: UIViewController {
 
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Flog.show("viewDidLoad")
+        FFLog.show("viewDidLoad")
         
         myLabel.textColor = UIColor.lightText()
     }
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        Flog.show("viewWillAppear")
+        FFLog.show("viewWillAppear")
         
     }
 

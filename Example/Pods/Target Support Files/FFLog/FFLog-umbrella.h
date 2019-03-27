@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double flogVersionNumber;
-FOUNDATION_EXPORT const unsigned char flogVersionString[];
+FOUNDATION_EXPORT double FFLogVersionNumber;
+FOUNDATION_EXPORT const unsigned char FFLogVersionString[];
 

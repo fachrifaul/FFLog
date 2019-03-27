@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* flog_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flog_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		96AEC20AFFF0FAE5CC19DDB6 /* flog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = flog.podspec; path = ../flog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AEC20AFFF0FAE5CC19DDB6 /* FFLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFLog.podspec; path = ../FFLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C529BE48C50081BA4003A81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D2ADEB0FD551AF0801BA40F0 /* Pods-flog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flog_Tests.debug.xcconfig"; path = "Target Support Files/Pods-flog_Tests/Pods-flog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D867246664DEFACB5725D4C3 /* Pods-flog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flog_Example.release.xcconfig"; path = "Target Support Files/Pods-flog_Example/Pods-flog_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				96AEC20AFFF0FAE5CC19DDB6 /* flog.podspec */,
+				96AEC20AFFF0FAE5CC19DDB6 /* FFLog.podspec */,
 				EA9C602EE60CC0FB9A72C651 /* README.md */,
 				9C529BE48C50081BA4003A81 /* LICENSE */,
 			);
@@ -316,13 +316,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-flog_Example/Pods-flog_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/flog/flog.framework",
+				"${BUILT_PRODUCTS_DIR}/FFLog/FFLog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFLog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

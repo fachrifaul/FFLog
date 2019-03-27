@@ -1,4 +1,4 @@
-# flog
+# FFLog
 
 [![CI Status](https://img.shields.io/travis/fachrifaul/flog.svg?style=flat)](https://travis-ci.org/fachrifaul/flog)
 [![Version](https://img.shields.io/cocoapods/v/flog.svg?style=flat)](https://cocoapods.org/pods/flog)
@@ -17,7 +17,7 @@ flog is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'flog'
+pod 'FFLog'
 ```
 
 ## Author

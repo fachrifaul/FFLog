@@ -1,16 +1,16 @@
 PODS:
-  - flog (0.1.0)
+  - FFLog (0.1.0)
 
 DEPENDENCIES:
-  - flog (from `../`)
+  - FFLog (from `../`)
 
 EXTERNAL SOURCES:
-  flog:
+  FFLog:
     :path: "../"
 
 SPEC CHECKSUMS:
-  flog: c28282ebc6fc44a6acd7970a0eb8841e00067743
+  FFLog: 2386144c823af6f434d989150eee9c9706d76e9c
 
-PODFILE CHECKSUM: f97c4cda01fed12de3e1d992e3eebbeb0c702992
+PODFILE CHECKSUM: 235c83dfe98c92d2f71725814b526d6b570e04b2
 
 COCOAPODS: 1.6.1
