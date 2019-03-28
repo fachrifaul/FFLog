@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6E0B696E87ECCFC564CBCEF0BCF00D1"
-               BuildableName = "flog.framework"
-               BlueprintName = "flog"
+               BlueprintIdentifier = "6C49A6455D3F02A5F8E4A7920E7E371E"
+               BuildableName = "FFLog.framework"
+               BlueprintName = "FFLog"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6E0B696E87ECCFC564CBCEF0BCF00D1"
-            BuildableName = "flog.framework"
-            BlueprintName = "flog"
+            BlueprintIdentifier = "6C49A6455D3F02A5F8E4A7920E7E371E"
+            BuildableName = "FFLog.framework"
+            BlueprintName = "FFLog"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6E0B696E87ECCFC564CBCEF0BCF00D1"
-            BuildableName = "flog.framework"
-            BlueprintName = "flog"
+            BlueprintIdentifier = "6C49A6455D3F02A5F8E4A7920E7E371E"
+            BuildableName = "FFLog.framework"
+            BlueprintName = "FFLog"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

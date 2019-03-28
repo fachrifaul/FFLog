@@ -1,9 +1,9 @@
 # FFLog
 
-[![CI Status](https://img.shields.io/travis/fachrifaul/flog.svg?style=flat)](https://travis-ci.org/fachrifaul/flog)
-[![Version](https://img.shields.io/cocoapods/v/flog.svg?style=flat)](https://cocoapods.org/pods/flog)
-[![License](https://img.shields.io/cocoapods/l/flog.svg?style=flat)](https://cocoapods.org/pods/flog)
-[![Platform](https://img.shields.io/cocoapods/p/flog.svg?style=flat)](https://cocoapods.org/pods/flog)
+[![CI Status](https://img.shields.io/travis/fachrifaul/FFLog.svg?style=flat)](https://travis-ci.org/fachrifaul/FFLog)
+[![Version](https://img.shields.io/cocoapods/v/FFLog.svg?style=flat)](https://cocoapods.org/pods/FFLog)
+[![License](https://img.shields.io/cocoapods/l/FFLog.svg?style=flat)](https://cocoapods.org/pods/FFLog)
+[![Platform](https://img.shields.io/cocoapods/p/FFLog.svg?style=flat)](https://cocoapods.org/pods/FFLog)
 
 ## Example
 
