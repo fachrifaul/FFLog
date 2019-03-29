@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  flog
+//  FFLog
 //
-//  Created by fachrifaul on 03/27/2019.
+//  Created by fachrifaul on 03/29/2019.
 //  Copyright (c) 2019 fachrifaul. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         myLabel.textColor = UIColor.lightText()
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "flog_Example.app"
-               BlueprintName = "flog_Example"
-               ReferencedContainer = "container:flog.xcodeproj">
+               BuildableName = "FFLog_Example.app"
+               BlueprintName = "FFLog_Example"
+               ReferencedContainer = "container:FFLog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "flog_Tests.xctest"
-               BlueprintName = "flog_Tests"
-               ReferencedContainer = "container:flog.xcodeproj">
+               BuildableName = "FFLog_Tests.xctest"
+               BlueprintName = "FFLog_Tests"
+               ReferencedContainer = "container:FFLog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "flog_Tests.xctest"
-               BlueprintName = "flog_Tests"
-               ReferencedContainer = "container:flog.xcodeproj">
+               BuildableName = "FFLog_Tests.xctest"
+               BlueprintName = "FFLog_Tests"
+               ReferencedContainer = "container:FFLog.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "flog_Example.app"
-            BlueprintName = "flog_Example"
-            ReferencedContainer = "container:flog.xcodeproj">
+            BuildableName = "FFLog_Example.app"
+            BlueprintName = "FFLog_Example"
+            ReferencedContainer = "container:FFLog.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "flog_Example.app"
-            BlueprintName = "flog_Example"
-            ReferencedContainer = "container:flog.xcodeproj">
+            BuildableName = "FFLog_Example.app"
+            BlueprintName = "FFLog_Example"
+            ReferencedContainer = "container:FFLog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "flog_Example.app"
-            BlueprintName = "flog_Example"
-            ReferencedContainer = "container:flog.xcodeproj">
+            BuildableName = "FFLog_Example.app"
+            BlueprintName = "FFLog_Example"
+            ReferencedContainer = "container:FFLog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,0 +1,6 @@
+framework module Pods_FFLog_Tests {
+  umbrella header "Pods-FFLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

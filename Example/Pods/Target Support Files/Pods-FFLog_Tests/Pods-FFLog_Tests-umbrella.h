@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_flog_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_flog_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_FFLog_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FFLog_TestsVersionString[];
 

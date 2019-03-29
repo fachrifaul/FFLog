@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  flog
+//  FFLog
 //
-//  Created by fachrifaul on 03/27/2019.
+//  Created by fachrifaul on 03/29/2019.
 //  Copyright (c) 2019 fachrifaul. All rights reserved.
 //
 
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

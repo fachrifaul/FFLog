@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint flog.podspec' to ensure this is a
+# Be sure to run `pod lib lint FFLog.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Library nya Fachri'
+  s.description      = 'Librarynya Fachri'
 
   s.homepage         = 'https://github.com/fachrifaul/FFLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,11 +28,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'flog/Classes/**/*'
-  s.swift_version = "4.2"
+  s.source_files = 'FFLog/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'flog' => ['flog/Assets/*.png']
+  #   'FFLog' => ['FFLog/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
