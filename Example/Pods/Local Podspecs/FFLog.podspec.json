@@ -1,8 +1,8 @@
 {
   "name": "FFLog",
-  "version": "0.1.0",
-  "summary": "A short description of FFLog.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "Library Keren :))",
+  "description": "Librarynya Fachri",
   "homepage": "https://github.com/fachrifaul/FFLog",
   "license": {
     "type": "MIT",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/fachrifaul/FFLog.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FFLog/Classes/**/*"
+  "swift_versions": "4.2",
+  "source_files": "FFLog/Classes/**/*",
+  "swift_version": "4.2"
 }

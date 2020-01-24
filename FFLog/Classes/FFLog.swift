@@ -17,8 +17,11 @@ public class FFLog {
 
 public extension UIColor {
     
-    public static func lightText() -> UIColor {
+    static func lightText() -> UIColor {
         return UIColor(white: 0, alpha: 0.27)
     }
     
+    static func light() -> UIColor {
+        return UIColor(white: 0, alpha: 0.27)
+    }
 }
