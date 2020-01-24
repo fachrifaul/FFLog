@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFLog'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Library Keren :))'
   s.description      = 'Librarynya Fachri'
   s.homepage         = 'https://github.com/fachrifaul/FFLog'

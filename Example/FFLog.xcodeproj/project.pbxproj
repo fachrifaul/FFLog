@@ -31,7 +31,7 @@
 		053DFF88D1D921B332B42239 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		28DBB66174E5B55F6C0871EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BC67AFCA7B8780202F05B7B /* Pods-FFLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLog_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFLog_Tests/Pods-FFLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F5BDAA198FA1A5CB7BC557E /* FFLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFLog.podspec; path = ../FFLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F5BDAA198FA1A5CB7BC557E /* FFLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFLog.podspec; path = ../FFLog.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FFLog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFLog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
