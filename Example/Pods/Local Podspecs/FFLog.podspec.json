@@ -19,6 +19,6 @@
     "ios": "8.0"
   },
   "swift_versions": "4.2",
-  "source_files": "FFLog/Classes/**/*",
+  "source_files": "Sources/FFLog/**/*",
   "swift_version": "4.2"
 }

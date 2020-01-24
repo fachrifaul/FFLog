@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		09C3BEB545879EEDD46591A642206FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		160775AE6B49FB3BF6039961CCFC6EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5B6A3DD6617BC9486E432BC28C7DADC3 /* FFLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2101DED993EA93326D262095DD0B678F /* FFLog-dummy.m */; };
+		5B6A3DD6617BC9486E432BC28C7DADC3 /* FFLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DF08380A439FF183BF79807F34C113 /* FFLog-dummy.m */; };
+		7AE5D8EE386579653E36ECDCA6405759 /* FFLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13073092720B3EB00F21B2B275BEF37E /* FFLog.swift */; };
 		8FE72BA1D946E6CFFF1E38B18020E7AF /* Pods-FFLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489D8A5387047D4D2EE8B3AA7B2AACF /* Pods-FFLog_Tests-dummy.m */; };
-		A0D8DFBDFA526A8DF6F86BF2520870BF /* FFLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 058B27C4E327CAC63EBA90BF522CFDAA /* FFLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0D8DFBDFA526A8DF6F86BF2520870BF /* FFLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274AA84172DD12140E63ECEF364A41A3 /* FFLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2560575AC88C786F6E1B9C0A5FD54FB /* Pods-FFLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 586CDA9E6C089596C8FB7D8E8996DF21 /* Pods-FFLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B306DC289097F4DDE9E6BBA681C411A5 /* FFLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066F81D4895AB75199549B41B6F164C /* FFLog.swift */; };
 		BC9351971F22A28EB54685A36D5ADE28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E213D62C059BB9134EC5F7D02A39E11F /* Pods-FFLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD5A23E4416F4E9C6CB98C5D09DA52F /* Pods-FFLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F48603BA0CC253C56F4D219D364E6EAA /* Pods-FFLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66F8219917E27425A0A3573764AD37 /* Pods-FFLog_Example-dummy.m */; };
@@ -37,39 +37,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03FDFBA2110C79B50AE7551113C8894F /* FFLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFLog.debug.xcconfig; sourceTree = "<group>"; };
 		0489D8A5387047D4D2EE8B3AA7B2AACF /* Pods-FFLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFLog_Tests-dummy.m"; sourceTree = "<group>"; };
-		058B27C4E327CAC63EBA90BF522CFDAA /* FFLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFLog-umbrella.h"; sourceTree = "<group>"; };
-		075E4507809F53D8A9B052A9A8635A43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0C36E04D07C2951F35FC28FF2C56BB55 /* Pods-FFLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFLog_Tests.modulemap"; sourceTree = "<group>"; };
+		0C549C45292BC32356899D8CBC0587C2 /* FFLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		129EA649099AEECF75B967C57C067D6F /* Pods-FFLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2101DED993EA93326D262095DD0B678F /* FFLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFLog-dummy.m"; sourceTree = "<group>"; };
+		13073092720B3EB00F21B2B275BEF37E /* FFLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFLog.swift; path = Sources/FFLog/FFLog.swift; sourceTree = "<group>"; };
+		132ED06E8961FC511B9EC054A330C802 /* FFLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFLog.modulemap; sourceTree = "<group>"; };
+		17DF08380A439FF183BF79807F34C113 /* FFLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFLog-dummy.m"; sourceTree = "<group>"; };
 		2265E527EDABF3AC161F700CE95322F4 /* Pods-FFLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFLog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		24C2B8D411CCEB7867F3F7C5C4B7C16B /* Pods_FFLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C2B8D411CCEB7867F3F7C5C4B7C16B /* Pods_FFLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFLog_Example.framework; path = "Pods-FFLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BC8323632C265E555BA70DB75EB41E /* Pods-FFLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		274AA84172DD12140E63ECEF364A41A3 /* FFLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFLog-umbrella.h"; sourceTree = "<group>"; };
+		30CF5A317E3D089FECDA46F96DB70CC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		30EA3355D04274003DB8D248CAC1BD24 /* FFLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFLog.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AB2F4E390DEE52CB526E3DF104218B3 /* Pods-FFLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C67DF204688B2CCCE59F7C94CD9FFA5 /* Pods-FFLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43B0C9907128AA4356A7987E4949E666 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4525B8C0338A1FBB6F4938E66818D762 /* Pods-FFLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5066F81D4895AB75199549B41B6F164C /* FFLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFLog.swift; path = FFLog/Classes/FFLog.swift; sourceTree = "<group>"; };
+		479F6CA9A73380FAD8AFBB948E21FB97 /* FFLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFLog-prefix.pch"; sourceTree = "<group>"; };
 		5068D3D15542811E740E508930742534 /* Pods-FFLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		552540EDFE28F67646B1016A78BD8EE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		586CDA9E6C089596C8FB7D8E8996DF21 /* Pods-FFLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFLog_Example-umbrella.h"; sourceTree = "<group>"; };
-		636362714DD84EA1A6C49346607F286D /* Pods_FFLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636362714DD84EA1A6C49346607F286D /* Pods_FFLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFLog_Tests.framework; path = "Pods-FFLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6596023CB793F10F8F7E4D2AFD2F5309 /* Pods-FFLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		66ADB8B4EAC8437EED71CD215072DC93 /* Pods-FFLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFLog_Tests-Info.plist"; sourceTree = "<group>"; };
-		7B918FEE2EBB16FD24C0EF4704AF3906 /* FFLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFLog-prefix.pch"; sourceTree = "<group>"; };
 		7F64AB6FF124C0A8C6C9F8B68F9730FC /* Pods-FFLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C4EB1F1A3ACD84A33D35D432693D54D /* Pods-FFLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFLog_Example.modulemap"; sourceTree = "<group>"; };
-		9927E587097CBEC980DDE41D23051AE9 /* FFLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FFLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B032DCBF2AC0AF79AD8094BCF9B88E17 /* FFLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFLog-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAD5A23E4416F4E9C6CB98C5D09DA52F /* Pods-FFLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFLog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D09E1929559D91646510CC907A035F5E /* FFLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54713E71A80911CB35FCA4D02A3FAC4 /* FFLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFLog.modulemap; sourceTree = "<group>"; };
+		CE529E01CEC99FDE0BFC8CD0769EA039 /* FFLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFLog.release.xcconfig; sourceTree = "<group>"; };
+		D09E1929559D91646510CC907A035F5E /* FFLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFLog.framework; path = FFLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8CF87B079301E0922F6C40D3C3AF9C /* Pods-FFLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFLog_Example-Info.plist"; sourceTree = "<group>"; };
-		E334EFA88675BFA1E151059C939C94AF /* FFLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFLog.release.xcconfig; sourceTree = "<group>"; };
 		EC66F8219917E27425A0A3573764AD37 /* Pods-FFLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFLog_Example-dummy.m"; sourceTree = "<group>"; };
+		ECCA7D49EF0FAA4604011406A42EED13 /* FFLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFLog-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,23 +100,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D99F2D4D3A5F592B30AE3F8E5EAED26 /* Development Pods */ = {
+		22E2FA164F164D6D0795DB97D2659F46 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9E4AE3207AE256FE075E20C69233CC0E /* FFLog */,
+				0C549C45292BC32356899D8CBC0587C2 /* FFLog.podspec */,
+				30CF5A317E3D089FECDA46F96DB70CC7 /* LICENSE */,
+				552540EDFE28F67646B1016A78BD8EE5 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		9E4AE3207AE256FE075E20C69233CC0E /* FFLog */ = {
+		37FFD1474F1C7D662C9A68BD45D950D5 /* FFLog */ = {
 			isa = PBXGroup;
 			children = (
-				5066F81D4895AB75199549B41B6F164C /* FFLog.swift */,
-				C1092E1939BB0154ABF7DE2F44F27F3D /* Pod */,
-				FB13929A23190D6CD7D9AF3B677BFC48 /* Support Files */,
+				13073092720B3EB00F21B2B275BEF37E /* FFLog.swift */,
+				22E2FA164F164D6D0795DB97D2659F46 /* Pod */,
+				E49157F87DEA11016DBAD00A9727BBDA /* Support Files */,
 			);
 			name = FFLog;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		7D99F2D4D3A5F592B30AE3F8E5EAED26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37FFD1474F1C7D662C9A68BD45D950D5 /* FFLog */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A9D51B7EAEC67E64EBE3A7895599A3F6 /* Targets Support Files */ = {
@@ -150,16 +160,6 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		C1092E1939BB0154ABF7DE2F44F27F3D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9927E587097CBEC980DDE41D23051AE9 /* FFLog.podspec */,
-				075E4507809F53D8A9B052A9A8635A43 /* LICENSE */,
-				43B0C9907128AA4356A7987E4949E666 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C197982B37028F03DA43090EAA49D72C /* Products */ = {
@@ -208,16 +208,16 @@
 			path = "Target Support Files/Pods-FFLog_Example";
 			sourceTree = "<group>";
 		};
-		FB13929A23190D6CD7D9AF3B677BFC48 /* Support Files */ = {
+		E49157F87DEA11016DBAD00A9727BBDA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D54713E71A80911CB35FCA4D02A3FAC4 /* FFLog.modulemap */,
-				2101DED993EA93326D262095DD0B678F /* FFLog-dummy.m */,
-				B032DCBF2AC0AF79AD8094BCF9B88E17 /* FFLog-Info.plist */,
-				7B918FEE2EBB16FD24C0EF4704AF3906 /* FFLog-prefix.pch */,
-				058B27C4E327CAC63EBA90BF522CFDAA /* FFLog-umbrella.h */,
-				03FDFBA2110C79B50AE7551113C8894F /* FFLog.debug.xcconfig */,
-				E334EFA88675BFA1E151059C939C94AF /* FFLog.release.xcconfig */,
+				132ED06E8961FC511B9EC054A330C802 /* FFLog.modulemap */,
+				17DF08380A439FF183BF79807F34C113 /* FFLog-dummy.m */,
+				ECCA7D49EF0FAA4604011406A42EED13 /* FFLog-Info.plist */,
+				479F6CA9A73380FAD8AFBB948E21FB97 /* FFLog-prefix.pch */,
+				274AA84172DD12140E63ECEF364A41A3 /* FFLog-umbrella.h */,
+				30EA3355D04274003DB8D248CAC1BD24 /* FFLog.debug.xcconfig */,
+				CE529E01CEC99FDE0BFC8CD0769EA039 /* FFLog.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FFLog";
@@ -317,11 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					08C9FC034BC34D6A477046330EEC9627 = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6A3DD6617BC9486E432BC28C7DADC3 /* FFLog-dummy.m in Sources */,
-				B306DC289097F4DDE9E6BBA681C411A5 /* FFLog.swift in Sources */,
+				7AE5D8EE386579653E36ECDCA6405759 /* FFLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +472,7 @@
 		};
 		3A71E08FB66D4B5AC342BD0A74CB335F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E334EFA88675BFA1E151059C939C94AF /* FFLog.release.xcconfig */;
+			baseConfigurationReference = CE529E01CEC99FDE0BFC8CD0769EA039 /* FFLog.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -499,7 +494,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -594,7 +589,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -672,7 +668,7 @@
 		};
 		D9C736866A41C32CFBDFE6450F2EEEC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03FDFBA2110C79B50AE7551113C8894F /* FFLog.debug.xcconfig */;
+			baseConfigurationReference = 30EA3355D04274003DB8D248CAC1BD24 /* FFLog.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -694,7 +690,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        FFLog.show("viewDidLoad")
+        FFLog().show("viewDidLoad")
         
         myLabel.textColor = UIColor.light()
     }
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        FFLog.show("viewWillAppear")
+        FFLog().show("viewWillAppear")
         
     }
 
