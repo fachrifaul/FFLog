@@ -1,5 +1,5 @@
 PODS:
-  - FFLog (0.1.1)
+  - FFLog (0.1.2)
 
 DEPENDENCIES:
   - FFLog (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFLog: 32291e42eba7f99c3ad82f154379338b419a13be
+  FFLog: 0fef641ec1fffda05ddc090b6c08070d555b5f6e
 
 PODFILE CHECKSUM: 012a8e19dc9f4c04465562be7442dbbd767c3c44
 
